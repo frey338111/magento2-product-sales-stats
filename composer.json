@@ -1,0 +1,26 @@
+{
+    "name": "hmh/magento2-product-sales-stats",
+    "description": "Adds storefront sales stats messaging for product sales volume within a configurable period.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.1",
+        "magento/module-catalog": "*",
+        "magento/module-sales": "*"
+    },
+    "authors": [
+        {
+            "name": "Fei Chen",
+            "email": "feic.hmh@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Hmh\\ProductSalesStats\\": ""
+        }
+    }
+}
